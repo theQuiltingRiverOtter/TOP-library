@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <!-- Compiled and minified CSS -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Library</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper indigo darken-4">
+          <a href="#" class="brand-logo center">Library</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+          </ul>
+        </div>
+      </nav>
+    
+    
+
+    <div id="library">
+
+    </div>
+
+    <dialog>
+        <form action="">
+            <label for="book_title">Title</label>
+            <input type="text" id="book_title" name="book_title">
+            <label for="book_author">Author</label>
+            <input type="text" id="book_author" name="book_author">
+            <label for="book_pages">Pages</label>
+            <input type="number" id="book_pages" name="book_pages" min="1">
+            
+
+            <p>
+                <label>
+                  <input type="checkbox" id="hasRead" name="hasRead"/>
+                  <span>Read?</span>
+                </label>
+              </p>
+
+          
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+
+        </form>
+      </dialog>
+      <button class="waves-effect waves-light btn btn-small"><i class="material-icons left">add</i> Add Book</button>
+
+
+    <script src="app.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+</body>
+</html>
